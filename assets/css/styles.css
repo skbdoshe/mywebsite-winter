@@ -1,3 +1,5 @@
+/* index.html*/
+
 body {
 
     background-color: #D8CFD0;
@@ -28,20 +30,25 @@ h1 {
 
 header {
     background-color: #413f4d;
-    height: 220px;
+    height: 280px;
     padding-bottom: 50px;
+
 
 }
 
 
 h1 {
-    border: 5px solid white;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+    padding-top: 40px;
+    padding-bottom: 10px;
     text-align: center;
     color: white;
-
+    font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+    padding-bottom: 95px;
+    border-bottom: 7px solid black;
 
 
 }
@@ -54,7 +61,7 @@ nav {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid white;
+
 
 }
 
@@ -74,12 +81,20 @@ nav a {
     padding: .5em;
     color: white;
     text-decoration: none;
+    border: 5px solid white;
+    border-bottom: 7px solid black;
+    border-left: 7px solid black;
 
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+
+
+
+
+
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
+    background-color: rgba(255, 255, 255, .3);
+
 }
 
 
@@ -105,39 +120,47 @@ nav a:hover {
     align-items: center;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 
 }
-
 
 .pic-p-b {
 
+
     align-items: center;
     text-align: center;
-    padding-top: 1px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    background-color: #413F3D;
+
+    color: white;
+    margin-top: -65px;
 }
 
+.pic-p-b a {
+
+    color: white;
+}
 
 .c-w {
 
-    align-items: center;
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 0;
 
+    text-align: center;
 }
 
 .pic-p-c {
-
     align-items: center;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+
     background-color: #D8CFD0;
-    background-size: cover;
-    border: 5px solid white;
-    margin-bottom: 50px;
+
+
+    margin-top: -3px;
+    margin-bottom: 400px;
 
 
 }
@@ -145,6 +168,7 @@ nav a:hover {
 .pic-p-c a {
 
     color: black;
+
 }
 
 
@@ -153,12 +177,13 @@ nav a:hover {
 .intro {
     text-align: center;
     font-size: 26px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     font-family: cursive;
     background-color: #413F3D;
-    border: 5px solid white;
+    color: white;
 }
+
 
 .text-intro {
 
@@ -167,10 +192,19 @@ nav a:hover {
     padding-top: 50px;
     border: 5px solid white;
 
+    align-content: center;
+    text-align: center;
+
+
 
 
 }
 
+.text-intro a {
+
+    color: black;
+
+}
 
 main {
     background-color: #D8CFDO;
@@ -180,6 +214,7 @@ main {
 footer {
     border: 7px solid white;
     text-align: left;
+    padding-top: 20px;
 
     background-color: #697184;
 
@@ -190,5 +225,5 @@ footer {
 .made-at {
     text-align: center;
     padding-bottom: 20px;
-    font-size: 10
+    font-size: 12px;
 }
