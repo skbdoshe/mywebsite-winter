@@ -8,13 +8,6 @@ html {
 
 }
 
-@media screen and (max-width: 800px) {
-    .res-nav {
-        bottom: 0px;
-        top: -25px;
-    }
-}
-
 
 body {
 
@@ -27,19 +20,36 @@ body {
 }
 
 
+.wrapper {
+    background-color: black;
+    opacity: .7;
+    color: white;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
 
 h1 {
     font-family: fantasy;
     font-size: 70px;
-    color: black;
+    color: white;
+
 
 }
 
 h2 {
     font-family: cursive;
     font-size: 26px;
-    color: black;
+    color: white;
     padding-bottom: 40px;
+    border-bottom: 3px solid white;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -48,16 +58,21 @@ h3 {
     font-size: 14px;
 
     padding-bottom: 10px;
-
+    color: white;
 }
 
 p {
+
     font-family: sans-serif;
     text-align: center;
     font-size: 18px;
     padding-bottom: 20px;
 
     font-size: 1.1em;
+    padding-bottom: 50px;
+
+
+
 }
 
 
@@ -66,7 +81,7 @@ img {
     border-bottom: 10px solid black;
     border-left: 10px solid black;
     border-top: 7px solid white;
-    border-right: 7px solid white;
+    border-right: 7px solid black;
 
 }
 
@@ -88,6 +103,7 @@ header h1 {
 
 
 
+
 }
 
 
@@ -98,13 +114,11 @@ h1 {
     padding-bottom: 10px;
     text-align: center;
     color: white;
-    font: 400 130px/0.8 'Great Vibes',
-        Helvetica,
-        sans-serif;
-    color: #fff;
+
     text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
     padding-bottom: 40px;
-    border-bottom: 10px solid white;
+    border-bottom: 5px solid white;
+
 
 
 
@@ -129,6 +143,7 @@ nav {
 
 
 }
+
 
 
 
@@ -161,6 +176,14 @@ nav a {
 
 
 
+}
+
+
+
+.main-content {
+    text-align: center;
+    margin-top: 75px;
+    color: white;
 
 
 }
@@ -171,14 +194,7 @@ nav a:hover {
 }
 
 
-.main-content {
-    text-align: center;
-    margin-top: 75px;
-    color: white;
 
-
-
-}
 
 .main-content a {
     text-align: center;
@@ -191,8 +207,8 @@ nav a:hover {
 
 .image-one-text {
 
-    background-color: #413f4d;
-    opacity: .9;
+    background-color: black;
+    opacity: .7;
 
     filter: alpha(opacity=50);
     padding-top: 22px;
@@ -205,11 +221,10 @@ nav a:hover {
     margin-top: -3px;
 }
 
+
 .image-two-text {
-    background-color: #413f4d;
-    opacity: .9;
-
-
+    background-color: black;
+    opacity: .7;
     padding-top: 22px;
     padding-bottom: 22px;
     color: white;
@@ -221,8 +236,8 @@ nav a:hover {
 }
 
 .image-thr-text {
-    background-color: #413f4d;
-    opacity: .9;
+    background-color: black;
+    opacity: .7;
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -241,8 +256,8 @@ nav a:hover {
 
 .intro {
     margin-top: 400px;
-    background-color: #413f4d;
-    opacity: .9;
+    background-color: black;
+    opacity: .7;
     padding-top: 50px;
     padding-bottom: 50px;
     border-top: 7px solid black;
@@ -262,7 +277,7 @@ footer img {
 }
 
 footer {
-    background-color: #697184;
+    background-color: black;
     opacity: .9;
     margin-top: 100px;
 
