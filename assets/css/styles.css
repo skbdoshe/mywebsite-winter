@@ -186,22 +186,22 @@ footer {
 }
 
 /* media breakpoint for screens under width of 400pixels for responsive styles */
-@media only screen and (max-width: 400px) {
-    nav a {
+@media only screen and (max-width: 400px){
+    nav a{
         padding: .4em;
     }
 }
 
 /* media breakpoint for screens under width of 365pixels for responsive styles */
-@media only screen and (max-width: 365px) {
-    nav a {
+@media only screen and (max-width: 365px){
+    nav a{
         padding: .3em;
     }
 }
 
 /* media breakpoint for screens under width of 350pixels for responsive styles */
-@media only screen and (max-width: 350px) {
-    nav a {
+@media only screen and (max-width: 350px){
+    nav a{
         padding: .1em;
     }
 }
